@@ -1,0 +1,17 @@
+{
+  "name": "terrastationimport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild index.ts --log-level=warning --outdir='.' --outbase=. --target='node16' --platform='node' --format='cjs'",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "js-base64": ""
+  }
+}
